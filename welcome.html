@@ -1,0 +1,10 @@
+---
+layout: default
+title: Welcome
+---
+<script>
+  var welcome = document.getElementById('welcome')
+  const params = new URLSearchParams(winddow.location.search)
+  welcome.innerHTMl = 'Welcome '+params.get('name')+'!'
+</script>
+<h1 id='welcome'>Loading...</h1>
