@@ -10,3 +10,9 @@
 *[fatal] {
   color: #f00;
 }
+
+ul, ul li {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
