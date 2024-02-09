@@ -4,5 +4,9 @@
 }
 
 *[warn] {
-  color: #ff0
+  color: #ff0;
+}
+
+*[fatal] {
+  color: #f00;
 }
